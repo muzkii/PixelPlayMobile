@@ -106,7 +106,7 @@ class InfoCard extends StatelessWidget {
 class ItemHomepage {
   final String name;
   final IconData icon;
-  final Color color; // Added color field for each item
+  final Color color; 
 
   ItemHomepage(this.name, this.icon, this.color);
 }
