@@ -10,7 +10,7 @@ class MyHomePage extends StatelessWidget {
 
   // Updated items list with the required button names
   final List<ItemHomepage> items = [
-    ItemHomepage("View Product List", Icons.list, Colors.teal),
+    ItemHomepage("View Product List", Icons.videogame_asset, Colors.teal),
     ItemHomepage("Add Product", Icons.add, Colors.orange),
     ItemHomepage("Logout", Icons.logout, Colors.red),
   ];

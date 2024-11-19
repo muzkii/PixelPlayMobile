@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pixelplaymobile/screens/menu.dart';
 import 'package:pixelplaymobile/screens/productentry_form.dart';
+import 'package:pixelplaymobile/screens/list_productentry.dart';
 
 
 class LeftDrawer extends StatelessWidget {
@@ -49,6 +50,17 @@ class LeftDrawer extends StatelessWidget {
                     builder: (context) => MyHomePage(),
                   ));
             },
+          ),
+          ListTile(
+              leading: const Icon(Icons.videogame_asset),
+              title: const Text('Product List'),
+              onTap: () {
+                  // Route to the mood page
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const ProductEntryPage()),
+                  );
+              },
           ),
           ListTile(
             leading: const Icon(Icons.add),
